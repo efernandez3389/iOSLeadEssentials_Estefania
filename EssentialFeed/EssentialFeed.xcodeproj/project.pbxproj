@@ -24,6 +24,7 @@
 		5BA66E782BF0CCCC00014946 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E642BEFE2C000014946 /* XCTestCase+MemoryLeakTracking.swift */; };
 		5BA66E802BF65F0500014946 /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E7F2BF65F0500014946 /* CacheFeedUseCaseTests.swift */; };
 		5BA66E832BF6828700014946 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E822BF6828700014946 /* LocalFeedLoader.swift */; };
+		5BA66E852BF6830400014946 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E842BF6830400014946 /* FeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		5BA66E792BF0CD9700014946 /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
 		5BA66E7F2BF65F0500014946 /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		5BA66E822BF6828700014946 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		5BA66E842BF6830400014946 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				5BA66E822BF6828700014946 /* LocalFeedLoader.swift */,
+				5BA66E842BF6830400014946 /* FeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA66E852BF6830400014946 /* FeedStore.swift in Sources */,
 				5BA66E672BEFFF0C00014946 /* URLSessionHTTPClient.swift in Sources */,
 				5BA66E5B2BE78A7C00014946 /* RemoteFeedLoader.swift in Sources */,
 				5BA66E5D2BEBFDE900014946 /* HTTPClient.swift in Sources */,
