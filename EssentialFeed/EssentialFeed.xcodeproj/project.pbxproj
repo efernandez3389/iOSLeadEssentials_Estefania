@@ -37,6 +37,7 @@
 		5BA66E9B2BFD035D00014946 /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E9A2BFD035D00014946 /* CodableFeedStore.swift */; };
 		5BA66E9D2BFE3FDE00014946 /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E9C2BFE3FDE00014946 /* FeedStoreSpecs.swift */; };
 		5BA66E9F2BFE609300014946 /* XCTest+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E9E2BFE609300014946 /* XCTest+FeedStoreSpecs.swift */; };
+		5BA66EA12BFE65CC00014946 /* XCTest+FailableRetrieveFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EA02BFE65CC00014946 /* XCTest+FailableRetrieveFeedStoreSpecs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		5BA66E9A2BFD035D00014946 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 		5BA66E9C2BFE3FDE00014946 /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
 		5BA66E9E2BFE609300014946 /* XCTest+FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
+		5BA66EA02BFE65CC00014946 /* XCTest+FailableRetrieveFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+FailableRetrieveFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				5BA66E982BFB91C500014946 /* CodableFeedStoreTests.swift */,
 				5BA66E9C2BFE3FDE00014946 /* FeedStoreSpecs.swift */,
 				5BA66E9E2BFE609300014946 /* XCTest+FeedStoreSpecs.swift */,
+				5BA66EA02BFE65CC00014946 /* XCTest+FailableRetrieveFeedStoreSpecs.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				5BA66E582BE775CA00014946 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				5BA66E622BEF746D00014946 /* URLSessionHTTPClientTest.swift in Sources */,
 				5BA66E8E2BF7981F00014946 /* FeedStoreSpy.swift in Sources */,
+				5BA66EA12BFE65CC00014946 /* XCTest+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				5BA66E952BF9FE1D00014946 /* SharedTestHelpers.swift in Sources */,
 				5BA66E802BF65F0500014946 /* CacheFeedUseCaseTests.swift in Sources */,
 				5BA66E8B2BF7969D00014946 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
