@@ -41,6 +41,7 @@
 		5BA66EA32BFE66C900014946 /* XCTest+FailableInsertFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EA22BFE66C900014946 /* XCTest+FailableInsertFeedStoreSpecs.swift */; };
 		5BA66EA52BFE677000014946 /* XCTest+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EA42BFE677000014946 /* XCTest+FailableDeleteFeedStoreSpecs.swift */; };
 		5BA66EA82BFF461E00014946 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EA72BFF461E00014946 /* CoreDataFeedStoreTests.swift */; };
+		5BA66EAA2BFF46E500014946 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		5BA66EA22BFE66C900014946 /* XCTest+FailableInsertFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+FailableInsertFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		5BA66EA42BFE677000014946 /* XCTest+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		5BA66EA72BFF461E00014946 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
+		5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 				5BA66E882BF769A300014946 /* LocalFeedImage.swift */,
 				5BA66E962BFA6E8700014946 /* FeedCachePolicy.swift */,
 				5BA66E9A2BFD035D00014946 /* CodableFeedStore.swift */,
+				5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				5BA66E5B2BE78A7C00014946 /* RemoteFeedLoader.swift in Sources */,
 				5BA66E5D2BEBFDE900014946 /* HTTPClient.swift in Sources */,
 				5BA66E552BE7714D00014946 /* FeedLoader.swift in Sources */,
+				5BA66EAA2BFF46E500014946 /* CoreDataFeedStore.swift in Sources */,
 				5BA66E5F2BEBFE4000014946 /* FeedItemMapper.swift in Sources */,
 				5BA66E872BF7695F00014946 /* RemoteFeedItem.swift in Sources */,
 				5BA66E9B2BFD035D00014946 /* CodableFeedStore.swift in Sources */,
