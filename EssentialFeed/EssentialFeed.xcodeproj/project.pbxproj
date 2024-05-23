@@ -43,6 +43,7 @@
 		5BA66EA82BFF461E00014946 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EA72BFF461E00014946 /* CoreDataFeedStoreTests.swift */; };
 		5BA66EAA2BFF46E500014946 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */; };
 		5BA66EAD2BFF47DA00014946 /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EAB2BFF47DA00014946 /* FeedStore.xcdatamodeld */; };
+		5BA66EB02BFF9AD300014946 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66EAF2BFF9AD300014946 /* CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		5BA66EA72BFF461E00014946 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 		5BA66EAC2BFF47DA00014946 /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
+		5BA66EAF2BFF9AD300014946 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +276,7 @@
 				5BA66E9A2BFD035D00014946 /* CodableFeedStore.swift */,
 				5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */,
 				5BA66EAB2BFF47DA00014946 /* FeedStore.xcdatamodeld */,
+				5BA66EAF2BFF9AD300014946 /* CoreDataHelpers.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				5BA66E672BEFFF0C00014946 /* URLSessionHTTPClient.swift in Sources */,
 				5BA66E5B2BE78A7C00014946 /* RemoteFeedLoader.swift in Sources */,
 				5BA66E5D2BEBFDE900014946 /* HTTPClient.swift in Sources */,
+				5BA66EB02BFF9AD300014946 /* CoreDataHelpers.swift in Sources */,
 				5BA66E552BE7714D00014946 /* FeedLoader.swift in Sources */,
 				5BA66EAA2BFF46E500014946 /* CoreDataFeedStore.swift in Sources */,
 				5BA66E5F2BEBFE4000014946 /* FeedItemMapper.swift in Sources */,
