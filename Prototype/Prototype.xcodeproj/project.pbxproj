@@ -13,6 +13,7 @@
 		5B1E01AB2C079A8600FC9F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1E01AA2C079A8600FC9F0F /* Assets.xcassets */; };
 		5B1E01AE2C079A8600FC9F0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5B1E01AD2C079A8600FC9F0F /* Base */; };
 		5B1E01B62C0CA58200FC9F0F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E01B52C0CA58200FC9F0F /* FeedViewController.swift */; };
+		5B1E01B82C0CA7AF00FC9F0F /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E01B72C0CA7AF00FC9F0F /* FeedImageViewModel+PrototypeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5B1E01AD2C079A8600FC9F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B1E01AF2C079A8600FC9F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B1E01B52C0CA58200FC9F0F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5B1E01B72C0CA7AF00FC9F0F /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5B1E01AC2C079A8600FC9F0F /* LaunchScreen.storyboard */,
 				5B1E01AF2C079A8600FC9F0F /* Info.plist */,
 				5B1E01B52C0CA58200FC9F0F /* FeedViewController.swift */,
+				5B1E01B72C0CA7AF00FC9F0F /* FeedImageViewModel+PrototypeData.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				5B1E01A22C079A8300FC9F0F /* AppDelegate.swift in Sources */,
 				5B1E01B62C0CA58200FC9F0F /* FeedViewController.swift in Sources */,
 				5B1E01A42C079A8300FC9F0F /* SceneDelegate.swift in Sources */,
+				5B1E01B82C0CA7AF00FC9F0F /* FeedImageViewModel+PrototypeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
