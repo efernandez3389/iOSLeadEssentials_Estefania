@@ -90,6 +90,7 @@
 		5B1E01C42C0DBE2A00FC9F0F /* EssentialFeediOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeediOS.docc; sourceTree = "<group>"; };
 		5B1E01CA2C0DBE2B00FC9F0F /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1E01D82C0DBE8600FC9F0F /* EssentialFeediOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeediOS.xctestplan; sourceTree = "<group>"; };
+		5B1E01D92C0DC08E00FC9F0F /* CI_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOS.xctestplan; sourceTree = "<group>"; };
 		5BA66E382BE7700000014946 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA66E3B2BE7700000014946 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		5BA66E3C2BE7700000014946 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 		5BA66E2E2BE7700000014946 = {
 			isa = PBXGroup;
 			children = (
+				5B1E01D92C0DC08E00FC9F0F /* CI_iOS.xctestplan */,
 				5B1E01D82C0DBE8600FC9F0F /* EssentialFeediOS.xctestplan */,
 				5B1E01BB2C0DBBF800FC9F0F /* EssentialFeedAPIEndToEndTests.xctestplan */,
 				5BA66EC62BFF9E5000014946 /* EssentialFeedCacheIntegrationTests.xctestplan */,
