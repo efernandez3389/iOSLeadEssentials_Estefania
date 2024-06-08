@@ -10,7 +10,6 @@ import Foundation
 public final class LocalFeedLoader {
     private let store: FeedStore
     private let currentDate: () -> Date
-    private let calendar = Calendar(identifier: .gregorian)
     
     public init(store: FeedStore, currentDate: @escaping () -> Date = Date.init) {
         self.store = store
@@ -27,18 +26,18 @@ extension LocalFeedLoader {
             
             switch deletionResult {
             case .success:
-                self.cache(with: feed, completion: completion)
+                self.cache(feed, completion: completion)
             case let .failure(error):
                 completion(.failure(error))
             }
         }
     }
     
-    private func cache(with feed: [FeedImage], completion: @escaping (SaveResult) -> Void) {
-        store.insert(feed.toLocal(), timestamp: currentDate()) { [weak self] error in
+    private func cache(_ feed: [FeedImage], completion: @escaping (SaveResult) -> Void) {
+        store.insert(feed.toLocal(), timestamp: currentDate()) { [weak self] insertionResult in
             guard self != nil else { return }
             
-            completion(error)
+            completion(insertionResult)
         }
     }
 }
