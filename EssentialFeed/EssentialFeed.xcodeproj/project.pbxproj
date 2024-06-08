@@ -21,6 +21,7 @@
 		5B1E01F52C13698D00FC9F0F /* FeedUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E01F42C13698D00FC9F0F /* FeedUIComposer.swift */; };
 		5B1E01F82C13799800FC9F0F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E01F72C13799800FC9F0F /* FeedViewModel.swift */; };
 		5B1E01FA2C13820300FC9F0F /* FeedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E01F92C13820300FC9F0F /* FeedImageViewModel.swift */; };
+		5B1E01FD2C1478BD00FC9F0F /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E01FC2C1478BD00FC9F0F /* FeedPresenter.swift */; };
 		5BA66E3D2BE7700000014946 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E3C2BE7700000014946 /* EssentialFeed.docc */; };
 		5BA66E432BE7700100014946 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA66E382BE7700000014946 /* EssentialFeed.framework */; };
 		5BA66E492BE7700100014946 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA66E3B2BE7700000014946 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -133,6 +134,7 @@
 		5B1E01F42C13698D00FC9F0F /* FeedUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
 		5B1E01F72C13799800FC9F0F /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		5B1E01F92C13820300FC9F0F /* FeedImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageViewModel.swift; sourceTree = "<group>"; };
+		5B1E01FC2C1478BD00FC9F0F /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
 		5BA66E382BE7700000014946 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA66E3B2BE7700000014946 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		5BA66E3C2BE7700000014946 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 		5B1E01C22C0DBE2A00FC9F0F /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
+				5B1E01FB2C14786500FC9F0F /* FeedPresentation */,
 				5B1E01EC2C135ABB00FC9F0F /* FeedUI */,
 				5B1E01E92C135A7700FC9F0F /* FeedImageLoader */,
 			);
@@ -263,7 +266,6 @@
 		5B1E01EC2C135ABB00FC9F0F /* FeedUI */ = {
 			isa = PBXGroup;
 			children = (
-				5B1E01F62C13798A00FC9F0F /* Models */,
 				5B1E01F32C13697F00FC9F0F /* Composers */,
 				5B1E01EE2C135ACA00FC9F0F /* Views */,
 				5B1E01ED2C135AC300FC9F0F /* Controllers */,
@@ -298,13 +300,14 @@
 			path = Composers;
 			sourceTree = "<group>";
 		};
-		5B1E01F62C13798A00FC9F0F /* Models */ = {
+		5B1E01FB2C14786500FC9F0F /* FeedPresentation */ = {
 			isa = PBXGroup;
 			children = (
 				5B1E01F72C13799800FC9F0F /* FeedViewModel.swift */,
 				5B1E01F92C13820300FC9F0F /* FeedImageViewModel.swift */,
+				5B1E01FC2C1478BD00FC9F0F /* FeedPresenter.swift */,
 			);
-			path = Models;
+			path = FeedPresentation;
 			sourceTree = "<group>";
 		};
 		5BA66E2E2BE7700000014946 = {
@@ -710,6 +713,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1E01FD2C1478BD00FC9F0F /* FeedPresenter.swift in Sources */,
 				5B1E01EB2C135AA100FC9F0F /* FeedImageDataLoader.swift in Sources */,
 				5B1E01F02C13609A00FC9F0F /* FeedRefreshViewController.swift in Sources */,
 				5B1E01E42C0E575B00FC9F0F /* FeedViewController.swift in Sources */,
