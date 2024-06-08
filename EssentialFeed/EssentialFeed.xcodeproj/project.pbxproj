@@ -458,8 +458,8 @@
 		5BA66EAE2BFF9A1900014946 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */,
 				5BA66EAB2BFF47DA00014946 /* FeedStore.xcdatamodeld */,
+				5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */,
 				5BA66EAF2BFF9AD300014946 /* CoreDataHelpers.swift */,
 				5BA66EB42BFF9B8600014946 /* ManagedCache.swift */,
 				5BA66EB62BFF9BB500014946 /* ManagedFeedImage.swift */,
