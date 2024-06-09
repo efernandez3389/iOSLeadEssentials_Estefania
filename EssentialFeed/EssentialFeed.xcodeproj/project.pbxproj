@@ -325,7 +325,7 @@
 			path = FeedPresentation;
 			sourceTree = "<group>";
 		};
-		5BA66E2E2BE7700000014946 = {
+		5B1E020C2C16168200FC9F0F /* TestPlan */ = {
 			isa = PBXGroup;
 			children = (
 				5B1E01D92C0DC08E00FC9F0F /* CI_iOS.xctestplan */,
@@ -334,6 +334,14 @@
 				5BA66EC62BFF9E5000014946 /* EssentialFeedCacheIntegrationTests.xctestplan */,
 				5BA66E792BF0CD9700014946 /* CI.xctestplan */,
 				5BA66E692BF0C50300014946 /* EssentialFeed.xctestplan */,
+			);
+			path = TestPlan;
+			sourceTree = "<group>";
+		};
+		5BA66E2E2BE7700000014946 = {
+			isa = PBXGroup;
+			children = (
+				5B1E020C2C16168200FC9F0F /* TestPlan */,
 				5BA66E3A2BE7700000014946 /* EssentialFeed */,
 				5BA66E462BE7700100014946 /* EssentialFeedTests */,
 				5BA66E6F2BF0C77D00014946 /* EssentialFeedAPIEndToEndTests */,
