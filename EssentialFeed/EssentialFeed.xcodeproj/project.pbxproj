@@ -39,6 +39,7 @@
 		5B1E02252C16211900FC9F0F /* FeedImageCell+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E02242C16211900FC9F0F /* FeedImageCell+TestHelpers.swift */; };
 		5B1E02272C16216000FC9F0F /* FakeRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E02262C16216000FC9F0F /* FakeRefreshControl.swift */; };
 		5B1E02292C1621B100FC9F0F /* FeedViewController+FakeRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E02282C1621B100FC9F0F /* FeedViewController+FakeRefreshControl.swift */; };
+		5B1E022E2C16239200FC9F0F /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E022D2C16239200FC9F0F /* FeedLocalizationTests.swift */; };
 		5BA66E3D2BE7700000014946 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E3C2BE7700000014946 /* EssentialFeed.docc */; };
 		5BA66E432BE7700100014946 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA66E382BE7700000014946 /* EssentialFeed.framework */; };
 		5BA66E492BE7700100014946 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA66E3B2BE7700000014946 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -171,6 +172,7 @@
 		5B1E02282C1621B100FC9F0F /* FeedViewController+FakeRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController+FakeRefreshControl.swift"; sourceTree = "<group>"; };
 		5B1E022A2C1622C900FC9F0F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		5B1E022B2C16230600FC9F0F /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
+		5B1E022D2C16239200FC9F0F /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
 		5BA66E382BE7700000014946 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA66E3B2BE7700000014946 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		5BA66E3C2BE7700000014946 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 		5B1E01CE2C0DBE2B00FC9F0F /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				5B1E022C2C16237C00FC9F0F /* FeedPresentation */,
 				5B1E02152C161ECA00FC9F0F /* FeedUI */,
 			);
 			path = EssentialFeediOSTests;
@@ -390,6 +393,14 @@
 				5B1E01DA2C0DFBCF00FC9F0F /* FeedUIIntegrationTests.swift */,
 			);
 			path = FeedUI;
+			sourceTree = "<group>";
+		};
+		5B1E022C2C16237C00FC9F0F /* FeedPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E022D2C16239200FC9F0F /* FeedLocalizationTests.swift */,
+			);
+			path = FeedPresentation;
 			sourceTree = "<group>";
 		};
 		5BA66E2E2BE7700000014946 = {
@@ -819,6 +830,7 @@
 				5B1E02232C1620B100FC9F0F /* UIRefreshControl+TestHelpers.swift in Sources */,
 				5B1E02272C16216000FC9F0F /* FakeRefreshControl.swift in Sources */,
 				5B1E01DB2C0DFBCF00FC9F0F /* FeedUIIntegrationTests.swift in Sources */,
+				5B1E022E2C16239200FC9F0F /* FeedLocalizationTests.swift in Sources */,
 				5B1E02212C16207D00FC9F0F /* UIImage+TestHelpers.swift in Sources */,
 				5B1E02172C161F1D00FC9F0F /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				5B1E02292C1621B100FC9F0F /* FeedViewController+FakeRefreshControl.swift in Sources */,
