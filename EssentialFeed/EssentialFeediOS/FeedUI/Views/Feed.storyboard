@@ -122,6 +122,7 @@
                         <connections>
                             <outlet property="dataSource" destination="JVB-jj-UDD" id="RmX-3T-BCO"/>
                             <outlet property="delegate" destination="JVB-jj-UDD" id="gyI-1J-rhb"/>
+                            <outlet property="prefetchDataSource" destination="JVB-jj-UDD" id="8Ud-hK-zML"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My Feed" id="pVR-EY-m5A"/>
