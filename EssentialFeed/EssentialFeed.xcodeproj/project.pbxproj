@@ -82,6 +82,7 @@
 		5BA66EC72BFFA19500014946 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E642BEFE2C000014946 /* XCTestCase+MemoryLeakTracking.swift */; };
 		5BA66EC82BFFA32900014946 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E942BF9FE1D00014946 /* SharedTestHelpers.swift */; };
 		5BA66EC92BFFA33700014946 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E912BF9FD6E00014946 /* FeedCacheTestHelpers.swift */; };
+		5BDFF6742C17A53F00C419A5 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF6732C17A53F00C419A5 /* MainQueueDispatchDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 		5BA66EBC2BFF9E1A00014946 /* EssentialFeedCacheIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedCacheIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA66EBE2BFF9E1A00014946 /* EssentialFeedCacheIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedCacheIntegrationTests.swift; sourceTree = "<group>"; };
 		5BA66EC62BFF9E5000014946 /* EssentialFeedCacheIntegrationTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedCacheIntegrationTests.xctestplan; sourceTree = "<group>"; };
+		5BDFF6732C17A53F00C419A5 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				5B1E01F42C13698D00FC9F0F /* FeedUIComposer.swift */,
+				5BDFF6732C17A53F00C419A5 /* MainQueueDispatchDecorator.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -814,6 +817,7 @@
 				5B1E01E42C0E575B00FC9F0F /* FeedViewController.swift in Sources */,
 				5B1E01FF2C14949000FC9F0F /* FeedImagePresenter.swift in Sources */,
 				5B1E020B2C15BB9B00FC9F0F /* UIImageView+Animations.swift in Sources */,
+				5BDFF6742C17A53F00C419A5 /* MainQueueDispatchDecorator.swift in Sources */,
 				5B1E01E82C10E26500FC9F0F /* UIView+Shimmering.swift in Sources */,
 				5B1E01E62C10C15300FC9F0F /* FeedImageCell.swift in Sources */,
 				5B1E01FA2C13820300FC9F0F /* FeedImageViewModel.swift in Sources */,
