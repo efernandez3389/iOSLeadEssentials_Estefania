@@ -84,6 +84,7 @@
 		5BA66EC92BFFA33700014946 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA66E912BF9FD6E00014946 /* FeedCacheTestHelpers.swift */; };
 		5BDFF6742C17A53F00C419A5 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF6732C17A53F00C419A5 /* MainQueueDispatchDecorator.swift */; };
 		5BDFF6762C17A5BD00C419A5 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF6752C17A5BD00C419A5 /* WeakRefVirtualProxy.swift */; };
+		5BDFF6782C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF6772C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,6 +220,7 @@
 		5BA66EC62BFF9E5000014946 /* EssentialFeedCacheIntegrationTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedCacheIntegrationTests.xctestplan; sourceTree = "<group>"; };
 		5BDFF6732C17A53F00C419A5 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 		5BDFF6752C17A5BD00C419A5 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
+		5BDFF6772C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +346,7 @@
 				5B1E01F42C13698D00FC9F0F /* FeedUIComposer.swift */,
 				5BDFF6732C17A53F00C419A5 /* MainQueueDispatchDecorator.swift */,
 				5BDFF6752C17A5BD00C419A5 /* WeakRefVirtualProxy.swift */,
+				5BDFF6772C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -824,6 +827,7 @@
 				5BDFF6742C17A53F00C419A5 /* MainQueueDispatchDecorator.swift in Sources */,
 				5B1E01E82C10E26500FC9F0F /* UIView+Shimmering.swift in Sources */,
 				5B1E01E62C10C15300FC9F0F /* FeedImageCell.swift in Sources */,
+				5BDFF6782C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				5B1E01FA2C13820300FC9F0F /* FeedImageViewModel.swift in Sources */,
 				5B1E01F22C13657C00FC9F0F /* FeedImageCellController.swift in Sources */,
 				5B1E01F52C13698D00FC9F0F /* FeedUIComposer.swift in Sources */,
