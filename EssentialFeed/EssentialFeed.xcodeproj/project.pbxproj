@@ -86,6 +86,7 @@
 		5BDFF6762C17A5BD00C419A5 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF6752C17A5BD00C419A5 /* WeakRefVirtualProxy.swift */; };
 		5BDFF6782C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF6772C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 		5BDFF67A2C17A68600C419A5 /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF6792C17A68600C419A5 /* FeedLoaderPresentationAdapter.swift */; };
+		5BDFF67C2C17A6D500C419A5 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF67B2C17A6D500C419A5 /* FeedViewAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +224,7 @@
 		5BDFF6752C17A5BD00C419A5 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		5BDFF6772C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 		5BDFF6792C17A68600C419A5 /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
+		5BDFF67B2C17A6D500C419A5 /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,6 +352,7 @@
 				5BDFF6752C17A5BD00C419A5 /* WeakRefVirtualProxy.swift */,
 				5BDFF6772C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift */,
 				5BDFF6792C17A68600C419A5 /* FeedLoaderPresentationAdapter.swift */,
+				5BDFF67B2C17A6D500C419A5 /* FeedViewAdapter.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -834,6 +837,7 @@
 				5BDFF6782C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				5B1E01FA2C13820300FC9F0F /* FeedImageViewModel.swift in Sources */,
 				5B1E01F22C13657C00FC9F0F /* FeedImageCellController.swift in Sources */,
+				5BDFF67C2C17A6D500C419A5 /* FeedViewAdapter.swift in Sources */,
 				5B1E01F52C13698D00FC9F0F /* FeedUIComposer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
