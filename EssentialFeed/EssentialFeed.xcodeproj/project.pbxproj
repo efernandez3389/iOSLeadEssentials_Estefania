@@ -89,6 +89,7 @@
 		5BDFF67C2C17A6D500C419A5 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFF67B2C17A6D500C419A5 /* FeedViewAdapter.swift */; };
 		5BFDAD452C203227008CEF26 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD442C203227008CEF26 /* ErrorView.swift */; };
 		5BFDAD482C2036F5008CEF26 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD472C2036F5008CEF26 /* FeedErrorViewModel.swift */; };
+		5BFDAD4A2C203770008CEF26 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,6 +230,7 @@
 		5BDFF67B2C17A6D500C419A5 /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
 		5BFDAD442C203227008CEF26 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		5BFDAD472C2036F5008CEF26 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
+		5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -591,6 +593,7 @@
 				5B1E020A2C15BB9B00FC9F0F /* UIImageView+Animations.swift */,
 				5B1E02082C15BA4500FC9F0F /* UITableView+Dequeueing.swift */,
 				5B1E01E72C10E26500FC9F0F /* UIView+Shimmering.swift */,
+				5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -838,6 +841,7 @@
 				5B1E01FD2C1478BD00FC9F0F /* FeedPresenter.swift in Sources */,
 				5B1E01EB2C135AA100FC9F0F /* FeedImageDataLoader.swift in Sources */,
 				5BFDAD452C203227008CEF26 /* ErrorView.swift in Sources */,
+				5BFDAD4A2C203770008CEF26 /* UIRefreshControl+Helpers.swift in Sources */,
 				5B1E02032C14973E00FC9F0F /* FeedViewModel.swift in Sources */,
 				5B1E02092C15BA4500FC9F0F /* UITableView+Dequeueing.swift in Sources */,
 				5B1E02012C14972100FC9F0F /* FeedLoadingViewModel.swift in Sources */,
