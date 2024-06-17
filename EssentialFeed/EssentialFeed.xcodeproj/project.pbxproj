@@ -90,6 +90,7 @@
 		5BFDAD452C203227008CEF26 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD442C203227008CEF26 /* ErrorView.swift */; };
 		5BFDAD482C2036F5008CEF26 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD472C2036F5008CEF26 /* FeedErrorViewModel.swift */; };
 		5BFDAD4A2C203770008CEF26 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */; };
+		5BFDAD4D2C203E6B008CEF26 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD4C2C203E6B008CEF26 /* FeedPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,6 +232,7 @@
 		5BFDAD442C203227008CEF26 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		5BFDAD472C2036F5008CEF26 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
 		5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
+		5BFDAD4C2C203E6B008CEF26 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +469,7 @@
 		5BA66E462BE7700100014946 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
+				5BFDAD4B2C203E52008CEF26 /* FeedPresentation */,
 				5BA66E632BEFE2A000014946 /* Helpers */,
 				5BA66E7E2BF65EC800014946 /* Feed Cache */,
 				5BA66E602BEC060500014946 /* Feed API */,
@@ -596,6 +599,14 @@
 				5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5BFDAD4B2C203E52008CEF26 /* FeedPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				5BFDAD4C2C203E6B008CEF26 /* FeedPresenterTests.swift */,
+			);
+			path = FeedPresentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -913,6 +924,7 @@
 			files = (
 				5BA66E922BF9FD6E00014946 /* FeedCacheTestHelpers.swift in Sources */,
 				5BA66E902BF9F93000014946 /* ValidateFeedCacheUseCaseTests.swift in Sources */,
+				5BFDAD4D2C203E6B008CEF26 /* FeedPresenterTests.swift in Sources */,
 				5BA66E9F2BFE609300014946 /* XCTest+FeedStoreSpecs.swift in Sources */,
 				5BA66E582BE775CA00014946 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				5BA66E622BEF746D00014946 /* URLSessionHTTPClientTest.swift in Sources */,
