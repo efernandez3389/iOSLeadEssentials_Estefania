@@ -2,9 +2,8 @@
   Feed.strings
   EssentialFeed
 
-  Created by Estefania Fernandez on 9/6/24.
+  Created by Estefania Fernandez on 18/6/24.
   
 */
-
 "FEED_VIEW_TITLE" = "My Feed";
 "FEED_VIEW_CONNECTION_ERROR" = "Couldn't connect to server";
