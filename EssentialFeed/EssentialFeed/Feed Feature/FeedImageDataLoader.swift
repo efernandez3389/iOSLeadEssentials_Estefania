@@ -1,6 +1,6 @@
 //
 //  FeedImageDataLoader.swift
-//  EssentialFeediOS
+//  EssentialFeed
 //
 //  Created by Estefania Fernandez on 7/6/24.
 //
