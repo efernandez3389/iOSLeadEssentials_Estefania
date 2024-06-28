@@ -96,6 +96,7 @@
 		5BFDAD682C2F0425008CEF26 /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD672C2F0425008CEF26 /* HTTPClientSpy.swift */; };
 		5BFDAD6A2C2F0482008CEF26 /* RemoteFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD692C2F0482008CEF26 /* RemoteFeedImageDataLoader.swift */; };
 		5BFDAD6D2C2F0CCD008CEF26 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD6C2C2F0CCD008CEF26 /* HTTPURLResponse+StatusCode.swift */; };
+		5BFDAD6F2C2F0D47008CEF26 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD6E2C2F0D47008CEF26 /* URLProtocolStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +244,7 @@
 		5BFDAD672C2F0425008CEF26 /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		5BFDAD692C2F0482008CEF26 /* RemoteFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		5BFDAD6C2C2F0CCD008CEF26 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
+		5BFDAD6E2C2F0D47008CEF26 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -495,6 +497,7 @@
 				5BA66E642BEFE2C000014946 /* XCTestCase+MemoryLeakTracking.swift */,
 				5BA66E942BF9FE1D00014946 /* SharedTestHelpers.swift */,
 				5BFDAD672C2F0425008CEF26 /* HTTPClientSpy.swift */,
+				5BFDAD6E2C2F0D47008CEF26 /* URLProtocolStub.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -931,6 +934,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA66E922BF9FD6E00014946 /* FeedCacheTestHelpers.swift in Sources */,
+				5BFDAD6F2C2F0D47008CEF26 /* URLProtocolStub.swift in Sources */,
 				5BA66E902BF9F93000014946 /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				5BFDAD4D2C203E6B008CEF26 /* FeedPresenterTests.swift in Sources */,
 				5BFDAD662C2EF6B2008CEF26 /* RemoteFeedImageDataLoaderTests.swift in Sources */,
