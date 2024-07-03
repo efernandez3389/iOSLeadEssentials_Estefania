@@ -104,6 +104,7 @@
 		5BFDAD792C35B5EC008CEF26 /* CacheFeedImageDataUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD782C35B5EC008CEF26 /* CacheFeedImageDataUseCaseTests.swift */; };
 		5BFDAD7B2C35BD57008CEF26 /* CoreDataFeedImageDataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD7A2C35BD57008CEF26 /* CoreDataFeedImageDataStoreTests.swift */; };
 		5BFDAD7F2C35C084008CEF26 /* CoreDataFeedStore+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD7E2C35C084008CEF26 /* CoreDataFeedStore+FeedImageDataLoader.swift */; };
+		5BFDAD812C35C6A3008CEF26 /* CoreDataFeedStore+FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD802C35C6A3008CEF26 /* CoreDataFeedStore+FeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -260,6 +261,7 @@
 		5BFDAD7A2C35BD57008CEF26 /* CoreDataFeedImageDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedImageDataStoreTests.swift; sourceTree = "<group>"; };
 		5BFDAD7C2C35BF66008CEF26 /* FeedStore2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore2.xcdatamodel; sourceTree = "<group>"; };
 		5BFDAD7E2C35C084008CEF26 /* CoreDataFeedStore+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataFeedStore+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
+		5BFDAD802C35C6A3008CEF26 /* CoreDataFeedStore+FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataFeedStore+FeedStore.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -645,6 +647,7 @@
 			children = (
 				5BFDAD7E2C35C084008CEF26 /* CoreDataFeedStore+FeedImageDataLoader.swift */,
 				5BA66EA92BFF46E400014946 /* CoreDataFeedStore.swift */,
+				5BFDAD802C35C6A3008CEF26 /* CoreDataFeedStore+FeedStore.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -944,6 +947,7 @@
 				5BA66EB02BFF9AD300014946 /* CoreDataHelpers.swift in Sources */,
 				5BFDAD642C2EF449008CEF26 /* FeedImageDataLoader.swift in Sources */,
 				5BA66E552BE7714D00014946 /* FeedLoader.swift in Sources */,
+				5BFDAD812C35C6A3008CEF26 /* CoreDataFeedStore+FeedStore.swift in Sources */,
 				5BA66EAA2BFF46E500014946 /* CoreDataFeedStore.swift in Sources */,
 				5BA66EB52BFF9B8600014946 /* ManagedCache.swift in Sources */,
 				5BFDAD732C355B94008CEF26 /* FeedImageDataStore.swift in Sources */,
