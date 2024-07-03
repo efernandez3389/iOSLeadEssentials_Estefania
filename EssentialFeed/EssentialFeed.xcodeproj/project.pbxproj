@@ -97,6 +97,7 @@
 		5BFDAD6A2C2F0482008CEF26 /* RemoteFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD692C2F0482008CEF26 /* RemoteFeedImageDataLoader.swift */; };
 		5BFDAD6D2C2F0CCD008CEF26 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD6C2C2F0CCD008CEF26 /* HTTPURLResponse+StatusCode.swift */; };
 		5BFDAD6F2C2F0D47008CEF26 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD6E2C2F0D47008CEF26 /* URLProtocolStub.swift */; };
+		5BFDAD712C354FEE008CEF26 /* LocalFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD702C354FEE008CEF26 /* LocalFeedImageDataLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +246,7 @@
 		5BFDAD692C2F0482008CEF26 /* RemoteFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		5BFDAD6C2C2F0CCD008CEF26 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
 		5BFDAD6E2C2F0D47008CEF26 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
+		5BFDAD702C354FEE008CEF26 /* LocalFeedImageDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -519,6 +521,7 @@
 				5BA66E8A2BF7969D00014946 /* LoadFeedFromCacheUseCaseTests.swift */,
 				5BA66E8F2BF9F93000014946 /* ValidateFeedCacheUseCaseTests.swift */,
 				5BA66EA72BFF461E00014946 /* CoreDataFeedStoreTests.swift */,
+				5BFDAD702C354FEE008CEF26 /* LocalFeedImageDataLoaderTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -943,6 +946,7 @@
 				5BA66E582BE775CA00014946 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				5BFDAD5D2C221246008CEF26 /* FeedLocalizationTests.swift in Sources */,
 				5BA66E622BEF746D00014946 /* URLSessionHTTPClientTest.swift in Sources */,
+				5BFDAD712C354FEE008CEF26 /* LocalFeedImageDataLoaderTests.swift in Sources */,
 				5BFDAD682C2F0425008CEF26 /* HTTPClientSpy.swift in Sources */,
 				5BA66EA32BFE66C900014946 /* XCTest+FailableInsertFeedStoreSpecs.swift in Sources */,
 				5BA66E8E2BF7981F00014946 /* FeedStoreSpy.swift in Sources */,
