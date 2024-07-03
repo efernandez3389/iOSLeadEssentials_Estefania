@@ -257,6 +257,7 @@
 		5BFDAD762C35B2FB008CEF26 /* FeedImageDataStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStoreSpy.swift; sourceTree = "<group>"; };
 		5BFDAD782C35B5EC008CEF26 /* CacheFeedImageDataUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedImageDataUseCaseTests.swift; sourceTree = "<group>"; };
 		5BFDAD7A2C35BD57008CEF26 /* CoreDataFeedImageDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedImageDataStoreTests.swift; sourceTree = "<group>"; };
+		5BFDAD7C2C35BF66008CEF26 /* FeedStore2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1523,6 +1524,7 @@
 		5BA66EAB2BFF47DA00014946 /* FeedStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				5BFDAD7C2C35BF66008CEF26 /* FeedStore2.xcdatamodel */,
 				5BA66EAC2BFF47DA00014946 /* FeedStore.xcdatamodel */,
 			);
 			currentVersion = 5BA66EAC2BFF47DA00014946 /* FeedStore.xcdatamodel */;
