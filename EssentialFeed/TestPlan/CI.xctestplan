@@ -31,15 +31,15 @@
     {
       "target" : {
         "containerPath" : "container:EssentialFeed.xcodeproj",
-        "identifier" : "5BA66E412BE7700100014946",
-        "name" : "EssentialFeedTests"
+        "identifier" : "5BA66EBB2BFF9E1A00014946",
+        "name" : "EssentialFeedCacheIntegrationTests"
       }
     },
     {
       "target" : {
         "containerPath" : "container:EssentialFeed.xcodeproj",
-        "identifier" : "5BA66EBB2BFF9E1A00014946",
-        "name" : "EssentialFeedCacheIntegrationTests"
+        "identifier" : "5BA66E412BE7700100014946",
+        "name" : "EssentialFeedTests"
       }
     }
   ],
