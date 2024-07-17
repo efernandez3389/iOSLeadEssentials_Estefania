@@ -5,22 +5,25 @@
       location = "group:TestPlan"
       name = "TestPlan">
       <FileRef
-         location = "group:EssentialFeedCacheIntegrationTests.xctestplan">
-      </FileRef>
-      <FileRef
          location = "group:CI_iOS.xctestplan">
       </FileRef>
       <FileRef
-         location = "group:EssentialApp.xctestplan">
-      </FileRef>
-      <FileRef
-         location = "group:EssentialFeedAPIEndToEndTests.xctestplan">
+         location = "group:EssentialFeediOS.xctestplan">
       </FileRef>
       <FileRef
          location = "group:CI.xctestplan">
       </FileRef>
       <FileRef
-         location = "group:EssentialFeediOS.xctestplan">
+         location = "group:EssentialApp.xctestplan">
+      </FileRef>
+      <FileRef
+         location = "group:EssentialFeed.xctestplan">
+      </FileRef>
+      <FileRef
+         location = "group:EssentialFeedAPIEndToEndTests.xctestplan">
+      </FileRef>
+      <FileRef
+         location = "group:EssentialFeedCacheIntegrationTests.xctestplan">
       </FileRef>
       <FileRef
          location = "group:EssentialFeed.xctestplan">
