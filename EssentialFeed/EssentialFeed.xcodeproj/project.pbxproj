@@ -164,11 +164,8 @@
 /* Begin PBXFileReference section */
 		5B1236742C44423400B17B15 /* FeedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCache.swift; sourceTree = "<group>"; };
 		5B12367E2C4447B800B17B15 /* FeedImageDataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataCache.swift; sourceTree = "<group>"; };
-		5B1E01BB2C0DBBF800FC9F0F /* EssentialFeedAPIEndToEndTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedAPIEndToEndTests.xctestplan; sourceTree = "<group>"; };
 		5B1E01C12C0DBE2A00FC9F0F /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1E01CA2C0DBE2B00FC9F0F /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B1E01D82C0DBE8600FC9F0F /* EssentialFeediOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeediOS.xctestplan; sourceTree = "<group>"; };
-		5B1E01D92C0DC08E00FC9F0F /* CI_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOS.xctestplan; sourceTree = "<group>"; };
 		5B1E01DA2C0DFBCF00FC9F0F /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		5B1E01E32C0E575B00FC9F0F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5B1E01E52C10C15300FC9F0F /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
@@ -205,10 +202,8 @@
 		5BA66E612BEF746D00014946 /* URLSessionHTTPClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTest.swift; sourceTree = "<group>"; };
 		5BA66E642BEFE2C000014946 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		5BA66E662BEFFF0C00014946 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
-		5BA66E692BF0C50300014946 /* EssentialFeed.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeed.xctestplan; sourceTree = "<group>"; };
 		5BA66E6E2BF0C77D00014946 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA66E702BF0C77D00014946 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
-		5BA66E792BF0CD9700014946 /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
 		5BA66E7F2BF65F0500014946 /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		5BA66E822BF6828700014946 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		5BA66E842BF6830400014946 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
@@ -233,7 +228,6 @@
 		5BA66EB62BFF9BB500014946 /* ManagedFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedFeedImage.swift; sourceTree = "<group>"; };
 		5BA66EBC2BFF9E1A00014946 /* EssentialFeedCacheIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedCacheIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA66EBE2BFF9E1A00014946 /* EssentialFeedCacheIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedCacheIntegrationTests.swift; sourceTree = "<group>"; };
-		5BA66EC62BFF9E5000014946 /* EssentialFeedCacheIntegrationTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedCacheIntegrationTests.xctestplan; sourceTree = "<group>"; };
 		5BDFF6732C17A53F00C419A5 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 		5BDFF6752C17A5BD00C419A5 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		5BDFF6772C17A62100C419A5 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
@@ -386,19 +380,6 @@
 			path = Composers;
 			sourceTree = "<group>";
 		};
-		5B1E020C2C16168200FC9F0F /* TestPlan */ = {
-			isa = PBXGroup;
-			children = (
-				5B1E01D92C0DC08E00FC9F0F /* CI_iOS.xctestplan */,
-				5B1E01D82C0DBE8600FC9F0F /* EssentialFeediOS.xctestplan */,
-				5B1E01BB2C0DBBF800FC9F0F /* EssentialFeedAPIEndToEndTests.xctestplan */,
-				5BA66EC62BFF9E5000014946 /* EssentialFeedCacheIntegrationTests.xctestplan */,
-				5BA66E792BF0CD9700014946 /* CI.xctestplan */,
-				5BA66E692BF0C50300014946 /* EssentialFeed.xctestplan */,
-			);
-			path = TestPlan;
-			sourceTree = "<group>";
-		};
 		5B1E02122C161D8400FC9F0F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,7 +410,6 @@
 		5BA66E2E2BE7700000014946 = {
 			isa = PBXGroup;
 			children = (
-				5B1E020C2C16168200FC9F0F /* TestPlan */,
 				5BA66E3A2BE7700000014946 /* EssentialFeed */,
 				5BA66E462BE7700100014946 /* EssentialFeedTests */,
 				5BA66E6F2BF0C77D00014946 /* EssentialFeedAPIEndToEndTests */,
