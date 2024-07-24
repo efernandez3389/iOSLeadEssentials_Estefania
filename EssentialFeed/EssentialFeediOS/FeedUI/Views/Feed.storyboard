@@ -20,7 +20,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p5-jw-8gc">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="34"/>
+                                    <rect key="frame" x="0.0" y="8" width="393" height="18"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -29,8 +29,8 @@
                             <color key="backgroundColor" red="0.99951404330000004" green="0.41759261489999999" blue="0.4154433012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="3p5-jw-8gc" firstAttribute="leading" secondItem="DjG-NX-t5O" secondAttribute="leading" id="1H2-yl-OBc"/>
-                                <constraint firstItem="3p5-jw-8gc" firstAttribute="top" secondItem="DjG-NX-t5O" secondAttribute="top" id="5MQ-jD-vDJ"/>
-                                <constraint firstAttribute="bottom" secondItem="3p5-jw-8gc" secondAttribute="bottom" id="JOr-Mx-dUz"/>
+                                <constraint firstItem="3p5-jw-8gc" firstAttribute="top" secondItem="DjG-NX-t5O" secondAttribute="top" constant="8" id="5MQ-jD-vDJ"/>
+                                <constraint firstAttribute="bottom" secondItem="3p5-jw-8gc" secondAttribute="bottom" constant="8" id="JOr-Mx-dUz"/>
                                 <constraint firstAttribute="trailing" secondItem="3p5-jw-8gc" secondAttribute="trailing" id="Jpu-pi-yId"/>
                             </constraints>
                             <connections>
