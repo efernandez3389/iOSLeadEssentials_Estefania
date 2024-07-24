@@ -69,6 +69,7 @@
 		5BC899262C4EB49000F7D31A /* FakeRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC899252C4EB49000F7D31A /* FakeRefreshControl.swift */; };
 		5BC8992A2C515B4700F7D31A /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC899292C515B4700F7D31A /* UITableView+HeaderSizing.swift */; };
 		5BC8992E2C51686A00F7D31A /* UIViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8992D2C51686A00F7D31A /* UIViewController+Snapshot.swift */; };
+		5BC899302C5168CA00F7D31A /* XCTestCase+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8992F2C5168CA00F7D31A /* XCTestCase+Snapshot.swift */; };
 		5BFDAD452C203227008CEF26 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD442C203227008CEF26 /* ErrorView.swift */; };
 		5BFDAD4A2C203770008CEF26 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */; };
 		5BFDAD4D2C203E6B008CEF26 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDAD4C2C203E6B008CEF26 /* FeedPresenterTests.swift */; };
@@ -209,6 +210,7 @@
 		5BC899252C4EB49000F7D31A /* FakeRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FakeRefreshControl.swift; path = ../../../EssentialApp/EssentialAppTests/Helpers/FakeRefreshControl.swift; sourceTree = "<group>"; };
 		5BC899292C515B4700F7D31A /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
 		5BC8992D2C51686A00F7D31A /* UIViewController+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Snapshot.swift"; sourceTree = "<group>"; };
+		5BC8992F2C5168CA00F7D31A /* XCTestCase+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Snapshot.swift"; sourceTree = "<group>"; };
 		5BFDAD442C203227008CEF26 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		5BFDAD492C203770008CEF26 /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 		5BFDAD4C2C203E6B008CEF26 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
@@ -528,6 +530,7 @@
 				5BC899212C4EB42600F7D31A /* FeedViewController+FakeRefreshControl.swift */,
 				5BC899252C4EB49000F7D31A /* FakeRefreshControl.swift */,
 				5BC8992D2C51686A00F7D31A /* UIViewController+Snapshot.swift */,
+				5BC8992F2C5168CA00F7D31A /* XCTestCase+Snapshot.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -843,6 +846,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BC8992E2C51686A00F7D31A /* UIViewController+Snapshot.swift in Sources */,
+				5BC899302C5168CA00F7D31A /* XCTestCase+Snapshot.swift in Sources */,
 				5BC899222C4EB42700F7D31A /* FeedViewController+FakeRefreshControl.swift in Sources */,
 				5B1E01E22C0E01D500FC9F0F /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				5BC899262C4EB49000F7D31A /* FakeRefreshControl.swift in Sources */,
