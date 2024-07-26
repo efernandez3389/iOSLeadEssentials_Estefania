@@ -19,12 +19,12 @@ func anyData() -> Data {
     return Data("any data".utf8)
 }
 
-private func makeItemsJSON(_ items: [[String: Any]]) -> Data{
+func makeItemsJSON(_ items: [[String: Any]]) -> Data{
     let json = ["items": items]
     return try! JSONSerialization.data(withJSONObject: json)
 }
 
-private extension HTTPURLResponse {
+extension HTTPURLResponse {
     convenience init(statusCode: Int) {
         self.init(url: anyURL(), statusCode: statusCode, httpVersion: nil, headerFields: nil)!
     }
