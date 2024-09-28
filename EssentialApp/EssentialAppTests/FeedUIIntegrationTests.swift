@@ -132,7 +132,7 @@ final class FeedUIIntegrationTests: XCTestCase {
     
     func test_feedImageViewLoadingIndicator_isVisibleWhileLoadingImage () {
         let (sut, loader) = makeSUT()
-        
+
         sut.simulateAppearance()
         loader.completeFeedLoading(with: [makeImage(), makeImage()])
         
