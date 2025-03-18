@@ -412,6 +412,20 @@ class FeedUIIntegrationTests: XCTestCase {
     
     func test_tapOnErrorView_hidesErrorMessage() {
         let (sut, loader) = makeSUT()
+
+        sut.simulateAppearance()
+        
+        XCTAssertEqual(sut.errorMessage, nil)
+        
+        loader.completeFeedLoadingWithError(at: 0)
+        XCTAssertEqual(sut.errorMessage, loadError)
+        
+        sut.simulateErrorViewTap()
+        XCTAssertEqual(sut.errorMessage, nil)
+    }
+    
+    func test_loadMoreCompletion_rendersErrorMessageOnError() {
+        let (sut, loader) = makeSUT()
         sut.simulateAppearance()
         loader.completeFeedLoading()
         
@@ -423,20 +437,6 @@ class FeedUIIntegrationTests: XCTestCase {
         
         sut.simulateLoadMoreFeedAction()
         XCTAssertEqual(sut.loadMoreFeedErrorMessage, nil)
-    }
-    
-    func test_loadMoreCompletion_rendersErrorMessageOnError() {
-        let (sut, loader) = makeSUT()
-
-        sut.simulateAppearance()
-        
-        XCTAssertEqual(sut.errorMessage, nil)
-        
-        loader.completeFeedLoadingWithError(at: 0)
-        XCTAssertEqual(sut.errorMessage, loadError)
-        
-        sut.simulateUserInitiatedReload()
-        XCTAssertEqual(sut.errorMessage, nil)
     }
     
     // MARK: - Helpers
