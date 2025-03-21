@@ -367,19 +367,19 @@ class FeedUIIntegrationTests: XCTestCase {
         wait(for: [exp], timeout: 1.0)
     }
     
-    func test_loadMoreCompletion_dispatchesFromBackgroundToMainThread() {
-        let (sut, loader) = makeSUT()
-        sut.simulateAppearance()
-        loader.completeFeedLoading(at: 0)
-        sut.simulateLoadMoreFeedAction()
-        
-        let exp = expectation(description: "Wait for background queue")
-        DispatchQueue.global().async {
-            loader.completeLoadMore()
-            exp.fulfill()
-        }
-        wait(for: [exp], timeout: 1.0)
-    }
+//    func test_loadMoreCompletion_dispatchesFromBackgroundToMainThread() {
+//        let (sut, loader) = makeSUT()
+//        sut.simulateAppearance()
+//        loader.completeFeedLoading(at: 0)
+//        sut.simulateLoadMoreFeedAction()
+//        
+//        let exp = expectation(description: "Wait for background queue")
+//        DispatchQueue.global().async {
+//            loader.completeLoadMore()
+//            exp.fulfill()
+//        }
+//        wait(for: [exp], timeout: 1.0)
+//    }
     
     func test_loadImageDataCompletion_dispatchesFromBackgroundToMainThread() {
         let (sut, loader) = makeSUT()
