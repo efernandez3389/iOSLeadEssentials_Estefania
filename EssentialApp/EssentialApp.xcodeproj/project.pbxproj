@@ -12,6 +12,7 @@
 		5B12366D2C42CCF900B17B15 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12366C2C42CCF900B17B15 /* SharedTestHelpers.swift */; };
 		5B12367B2C44459D00B17B15 /* FeedImageDataLoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12367A2C44459D00B17B15 /* FeedImageDataLoaderSpy.swift */; };
 		5B12367D2C44464200B17B15 /* XCTestCase+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12367C2C44464200B17B15 /* XCTestCase+FeedImageDataLoader.swift */; };
+		5B4208A12D8EDDFD005504ED /* NullStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4208A02D8EDDFA005504ED /* NullStore.swift */; };
 		5B7848D32CB2867C00E7AE06 /* CommentsUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7848D22CB2867100E7AE06 /* CommentsUIIntegrationTests.swift */; };
 		5B7848D52CB287D800E7AE06 /* CommentsUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7848D42CB287D300E7AE06 /* CommentsUIComposer.swift */; };
 		5BC898F62C4D09CA00F7D31A /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC898F02C4D09CA00F7D31A /* FeedViewAdapter.swift */; };
@@ -76,6 +77,7 @@
 		5B12366C2C42CCF900B17B15 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		5B12367A2C44459D00B17B15 /* FeedImageDataLoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderSpy.swift; sourceTree = "<group>"; };
 		5B12367C2C44464200B17B15 /* XCTestCase+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
+		5B4208A02D8EDDFA005504ED /* NullStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullStore.swift; sourceTree = "<group>"; };
 		5B7848D22CB2867100E7AE06 /* CommentsUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIIntegrationTests.swift; sourceTree = "<group>"; };
 		5B7848D42CB287D300E7AE06 /* CommentsUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIComposer.swift; sourceTree = "<group>"; };
 		5BC898F02C4D09CA00F7D31A /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		5BFDAD8D2C3932D8008CEF26 /* EssentialApp */ = {
 			isa = PBXGroup;
 			children = (
+				5B4208A02D8EDDFA005504ED /* NullStore.swift */,
 				5BFDAD8E2C3932D8008CEF26 /* AppDelegate.swift */,
 				5BFDAD902C3932D8008CEF26 /* SceneDelegate.swift */,
 				5BFDAD922C3932D8008CEF26 /* ViewController.swift */,
@@ -317,6 +320,7 @@
 			files = (
 				5BFDAD932C3932D8008CEF26 /* ViewController.swift in Sources */,
 				5BFDAD8F2C3932D8008CEF26 /* AppDelegate.swift in Sources */,
+				5B4208A12D8EDDFD005504ED /* NullStore.swift in Sources */,
 				5BC899362C527E0F00F7D31A /* CombineHelpers.swift in Sources */,
 				5BC898F62C4D09CA00F7D31A /* FeedViewAdapter.swift in Sources */,
 				5B7848D52CB287D800E7AE06 /* CommentsUIComposer.swift in Sources */,
