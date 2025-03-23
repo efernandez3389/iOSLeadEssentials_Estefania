@@ -101,6 +101,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             .caching(to: localFeedLoader)
             .fallback(to: localFeedLoader.loadPublisher)
             .map(makeFirstPage)
+            .subscribe(on: scheduler)
             .eraseToAnyPublisher()
     }
     
@@ -111,6 +112,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 return (cachedItems + newItems, newItems.last)
             }.map(makePage)
             .caching(to: localFeedLoader)
+            .subscribe(on: scheduler)
+            .eraseToAnyPublisher()
     }
     
     private func makeRemoteFeedLoader(after: FeedImage? = nil) -> AnyPublisher<[FeedImage], Error> {
