@@ -58,7 +58,6 @@ class CacheFeedImageDataUseCaseTests: XCTestCase {
     }
     
     private func expect(_ sut: LocalFeedImageDataLoader, toCompleteWith expectedResult: Result<Void, Error>, when action: () -> Void, file: StaticString = #filePath, line: UInt = #line) {
-        let exp = expectation(description: "Wait for load completion")
         
         action()
         
@@ -72,10 +71,9 @@ class CacheFeedImageDataUseCaseTests: XCTestCase {
               .failure(let expectedError as LocalFeedImageDataLoader.SaveError)):
             XCTAssertEqual(receivedError, expectedError, file: file, line: line)
             
-            exp.fulfill()
         default:
             XCTFail("Expected result \(expectedResult), got \(receivedResult) instead", file: file, line: line)
-        }        
+        }
     }
     
 }
